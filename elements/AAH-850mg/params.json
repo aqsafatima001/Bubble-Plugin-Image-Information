@@ -1,0 +1,68 @@
+{
+    "add_is_visible": true,
+    "can_fit_height": true,
+    "can_fit_width": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "get image info",
+    "fields": {
+        "AAI": {
+            "caption": "image",
+            "editor": "DynamicValue",
+            "name": "image",
+            "rank": 0,
+            "value": "file"
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "platform_type": "web",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    },
+    "states": {
+        "AAJ": {
+            "caption": "image_width",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "image_width",
+            "value": "number"
+        },
+        "AAK": {
+            "caption": "image_height",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "image_height",
+            "value": "number"
+        },
+        "AAL": {
+            "caption": "image_size (mb)",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "image_size",
+            "value": "number"
+        },
+        "AAM": {
+            "caption": "loading",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "loading",
+            "value": "boolean"
+        },
+        "AAN": {
+            "caption": "error",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "error",
+            "value": "text"
+        }
+    }
+}
