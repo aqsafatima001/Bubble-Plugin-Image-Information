@@ -1,5 +1,16 @@
 {
+    "categories": {
+        "0": "technical",
+        "1": "productivity",
+        "2": "media",
+        "3": "image"
+    },
+    "demo_page": "https://chakor-plugin-demo-6.bubbleapps.io/version-test/image_information?debug_mode=true",
+    "description": "The Image Information Plugin is a powerful and versatile tool designed to extract and display essential details about uploaded or fetched image files. This plugin is ideal for applications that require image validation, analysis, or management, providing users with detailed metadata about their images.\n\n🔗 Demo Page:  https://chakor-plugin-demo-6.bubbleapps.io/version-test/image_information\n\n\n\n🔗 Editor Link:  https://bubble.io/page?id=chakor-plugin-demo-6&test_plugin=1737464988760x985005635340075000_current&tab=Design&name=image_information&type=page\n\n\n\nOur team is available to solve any problems or questions you may have, please open a thread on our support forum: https://forum.thechakor.com/t/plugin-issues",
+    "image": "//meta-q.cdn.bubble.io/f1737571533612x296883287599053900/DALL%C2%B7E%202025-01-22%2023.45.28%20-%20A%20modern%20and%20sleek%20logo%20for%20an%20%27Image%20Information%20Plugin%27%20designed%20for%20web%20development.%20The%20logo%20features%20a%20stylized%20image%20icon%20with%20pixel%20dimensions%20.webp",
     "license": "commercial",
+    "link": "https://thechakor.tawk.help/article/image-information",
     "name": "Image Information",
+    "plugin_instructions": "Add the Plugin to Your App\n - Install the Image Information Plugin from the plugin marketplace.\n\nPlace a File Uploader\n - Drag and drop the File Uploader element onto your page \n    to allow users to upload images.\n\nAdd the \"Getimageinfo\" Element\n - Place the Getimageinfo element on the page.\n - Provide an Image File\n - Link the uploaded image file to the Getimageinfo \n   element for processing.\n\nAccess Exposed States\n - Use these states to display information or handle workflows:\n 1. image_height: Height in pixels.\n 2. image_width: Width in pixels.\n 3. image_size: File size in KB.\n 4. loading: Shows yes during processing and no when \n     complete.\n 5. error: Displays an error message if a non-image file is \n     uploaded.\n\nShow Metadata and Handle Errors\n - Add text elements to display metadata and error \n   messages dynamically based on the exposed states.\n\nTest the Setup\n- Upload an image to verify its details are correctly \n  processed. Confirm the error state activates for non- \n  image files.",
     "sa_node_version": 18
 }
